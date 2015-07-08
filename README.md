@@ -23,8 +23,9 @@ $ sudo make uninstall
 
 # Usage
 
-Just link it with your application using -lyata. Don't forget it MUST also be linked with -lpthread and -lrt. The code below can be used as reference:
+Just link it with your application using -lyata. Don't forget it MUST also be linked with -lpthread and -lrt. The code below can be used as reference. Save it named as test.c.
 
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <yata.h>
@@ -44,7 +45,7 @@ main()
 
 	while(1);
 }
-
+```
 For compiling this code you can run:
 
 $ gcc test.c -lyata -lpthread -lrt
