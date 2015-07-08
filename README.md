@@ -5,7 +5,7 @@ This timer API was created as an activity with the purpose of learning the open-
 
 It's just a simple API that creates POSIX per-process timers. The main purpose is schedule an activity for a process after a timer expiration. Timers can be periodic or not.
 
-# Compiling
+## Compiling
 
 The makefile simply generates a dynamic library.
 
@@ -21,7 +21,7 @@ For removing the library from your system you should run:
 
 $ sudo make uninstall
 
-# Usage
+## Usage
 
 Just link it with your application using -lyata. Don't forget it MUST also be linked with -lpthread and -lrt. The code below can be used as reference. Save it named as test.c.
 
