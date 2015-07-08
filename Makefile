@@ -22,4 +22,5 @@ install: $(TARGET_LIB)
 
 uninstall:
 	rm -rf $(INSTALL_DIR)/$(TARGET_LIB)
+	ldconfig
 
